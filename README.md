@@ -6,7 +6,7 @@ PancakeSwap sniper bot.
 
 ## How it works
 The sniping bot can be used in three different cases:
-1) In a fair launch. the token address is announced just at the time of launch, usually via telegram or other social networks. Copy&pasting quickly is crucial in order to be the first buyer and obtain the best price (hopefully close to listing price) before all the hype. However, using pancakeswap is slow and doing it manually loses some very important seconds. The bot only needs to know the token address, then it quickly sends a buy transaction. 
+1) In a fair launch. the token address is announced just at the time of launch, usually via telegram or other social networks. Copy & Pasting quickly is crucial in order to be the first buyer and obtain the best price (hopefully close to listing price) before all the hype. However, using PancakeSwap is slow and doing it manually loses some very important seconds. The bot only needs to know the token address, then it quickly sends a buy transaction. 
 2) In a coin listing where the address is already known before the listing time. Here, the sniping bots get a larger advantage over manual traders. The sniper checks the liquidity of the pancakeswap pool several times in every second and sends a contract whenever it gets filled.
 3) Limit orders in pancakeswap. It can also be used to execute limit orders and avoids the need of being constantly staring at the graph.
 
