@@ -1,4 +1,4 @@
-# Barrett-50Cal. Sniper Bot
+# Barrett-Cal. 50 Sniper Bot
 
 PancakeSwap sniper bot. 
 
