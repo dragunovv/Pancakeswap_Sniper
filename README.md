@@ -31,7 +31,7 @@ The sniping bot can be used in three different cases:
 - **Gwei**: The greater this value the bigger the chances of buying the first. Usually pancakeswap puts this at 5, however, we recommend a larger value to be faster (>15)
 - **Log**: The log box will help the user and notify whenever any change or any error happens.
 
-![Screenshot](https://github.com/dragunovv/Pancakeswap_Sniper/bot_image.png)
+![Screenshot](https://github.com/dragunovv/Pancakeswap_Sniper/blob/31f8c5b8c82795e5e37fea677b4856a3e9c65da4/bot_image.png)
 
 ## Bot Setup
 - First you need a Ethereum (ERC) / Binance Smart Chain (BSC) wallet, such as [Metamask](https://metamask.io/) which is easily configurable.
