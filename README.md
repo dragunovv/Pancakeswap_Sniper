@@ -50,6 +50,12 @@ We keep track of all the transactions to our wallet and ensure that only those a
 
 We charge a 5% comision fee on the used BNB for purchasing tokens and other 5% on the profits (and not on the losses).
 
+## Troubleshooting
+The log of the bot can show multiple errors if the operations are not performed correctly. Among the most common ones:
+1)
+2)
+
+
 ## Contact
 - **Mail** : fedir.dyachenko@protonmail.com
 
