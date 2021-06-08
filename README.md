@@ -52,9 +52,6 @@ We charge a 5% comision fee on the used BNB for purchasing tokens and other 5% o
 
 ## Troubleshooting
 The log of the bot can show multiple errors if the operations are not performed correctly. Among the most common ones:
-1)
-2)
-
 
 ## Contact
 - **Mail** : fedir.dyachenko@protonmail.com
