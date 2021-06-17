@@ -52,6 +52,7 @@ We charge a 5% comision fee on the used BNB for purchasing tokens and other 5% o
 
 ## Troubleshooting
 The log of the bot can show multiple errors if the operations are not performed correctly. Among the most common ones:
+**web3.exceptions.ContractLogicError: execution reverted**. The token contract is wrong or the pair contract may have not been created yet.  
 
 ## Contact
 - **Mail** : fedir.dyachenko@protonmail.com
