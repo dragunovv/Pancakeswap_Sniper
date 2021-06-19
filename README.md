@@ -57,6 +57,9 @@ The log of the bot can show multiple errors if the operations are not performed 
 ## Contact
 - **Mail** : fedir.dyachenko@protonmail.com
 
+## Demo
+![Video](https://github.com/dragunovv/Pancakeswap_Sniper/blob/31f8c5b8c82795e5e37fea677b4856a3e9c65da4/barrett_demo_busd.mkv)
+
 ## Disclaimer
 
 We are not responsible for the actions taken with this bot.
