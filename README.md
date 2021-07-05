@@ -4,7 +4,7 @@ PancakeSwap sniper bot.
 
 > Automated sniping bot to snipe crypto coin launches.
 
-**If you are experiencing problems dowloading the executable, contact us at fedir.dyachenko@protonmail.com and we will send you a WeTransfer link.**
+**If you are experiencing problems dowloading the executable, contact us at fedir.dyachenko@protonmail.com. WeTransfer link of the executable: https://we.tl/t-H6Scj3ajQg**
 
 
 ## How it works
