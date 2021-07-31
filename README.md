@@ -4,9 +4,6 @@ PancakeSwap sniper bot.
 
 > Automated sniping bot to snipe crypto coin launches.
 
-**If you are experiencing problems dowloading the executable, contact us at fedir.dyachenko@protonmail.com. WeTransfer link of the executable: https://we.tl/t-XFH7CVhTQU**
-
-
 ## How it works
 The sniping bot can be used in three different cases:
 1) In a fair launch. the token address is announced just at the time of launch, usually via telegram or other social networks. Copy & Pasting quickly is crucial in order to be the first buyer and obtain the best price (hopefully close to listing price) before all the hype. However, using PancakeSwap is slow and doing it manually wastes some very important seconds. The bot only needs to know the token address, then it quickly sends a buy transaction. 
