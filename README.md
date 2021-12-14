@@ -4,6 +4,8 @@ MultiNetwork, MultiExchange sniper bot.
 
 > Automated sniping bot to snipe crypto coin launches.
 
+![Screenshot](https://raw.githubusercontent.com/kirk33/TokenSniper/main/1.jpg)![Screenshot](https://raw.githubusercontent.com/kirk33/TokenSniper/main/2.jpg)
+
 ## How it works
 The sniping bot can be used in three different cases:
 1) In a fair launch. the token address is announced just at the time of launch, usually via telegram or other social networks. Copy & Pasting quickly is crucial in order to be the first buyer and obtain the best price (hopefully close to listing price) before all the hype. However, using PancakeSwap is slow and doing it manually wastes some very important seconds. The bot only needs to know the token address, then it quickly sends a buy transaction. 
@@ -27,9 +29,6 @@ The sniping bot can be used in three different cases:
 - **Slippage**: The price change percentage you are willing to accept whenever a buy is performed. Usually in listings the price fluctuates due to the buying and selling pressure. This may lead to purchases with a great variation from your original price.
 - **Gas**: The max amount of gas you accept to use. Put this around 800000 to ensure succesful trades
 - **Gwei**: The greater this value the bigger the chances of buying the first. Usually pancakeswap puts this at 5, however, we recommend a larger value to be faster (>15)
-
-![Screenshot](https://raw.githubusercontent.com/kirk33/TokenSniper/main/1.jpg)
-![Screenshot](https://raw.githubusercontent.com/kirk33/TokenSniper/main/2.jpg)
 
 ## Bot Setup
 - First you need a Ethereum (ERC) / Binance Smart Chain (BSC) wallet, such as [Metamask](https://metamask.io/) or Trustwallet / Ledger which is easily configurable.
