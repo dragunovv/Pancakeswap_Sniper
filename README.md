@@ -1,8 +1,10 @@
-# Barrett - Cal. 50 Sniper Bot
+# Token Sniper Bot
 
-PancakeSwap sniper bot. 
+MultiNetwork, MultiExchange sniper bot. 
 
 > Automated sniping bot to snipe crypto coin launches.
+
+![Screenshot](https://raw.githubusercontent.com/kirk33/TokenSniper/main/1.jpg)![Screenshot](https://raw.githubusercontent.com/kirk33/TokenSniper/main/2.jpg)
 
 ## How it works
 The sniping bot can be used in three different cases:
@@ -20,45 +22,32 @@ The sniping bot can be used in three different cases:
 - **Contract Address**: Address of the conttract you want to snipe in.
 
 ### Bot Configuration
-- **BNB to trade**: The amount of BNB you want to use to purchase the token.
-- **Max Price to Buy**: The maximum price the user is willing to pay for the token. Put a large number if you do not care.
-- **Min Price to Sell**: The minimum price the user is willing to accept as a selling price.
-- **Min Gain to Sell**: The minimum gain the user is willing to accept. A 100% gain is equivalent to doing a 2x. If this, and the previous slots are filled, the lowest price will be taken into account.
-- **Buy and Sell token**: If this box is checked, the bot will buy at listing time and sell whenever any of the conditions is fulfilled. If your intention is to HODL the tokens and you are not interested on selling, you can uncheck the box and the bot will only buy.
-- **Price Check Frequency**: The frequency in which the bot check if there is liquidity and a trade can be executed.
+- **Max Buy Limit**: The amount of BNB you want to use to purchase the token.
+- **Max Buy Price**: The maximum price the user is willing to pay for the token. Put a large number if you do not care.
+- **Buy And Sell For Profit**: The minimum gain the user is willing to accept. A 100% gain is equivalent to doing a 2x. If this, and the previous slots are filled, the lowest price will be taken into account.
+- **Round Freq**: The frequency in which the bot check if there is liquidity and a trade can be executed.
 - **Slippage**: The price change percentage you are willing to accept whenever a buy is performed. Usually in listings the price fluctuates due to the buying and selling pressure. This may lead to purchases with a great variation from your original price.
-- **Max Gas**: The max amount of gas you accept to use. Put this around 800000 to ensure succesful trades
+- **Gas**: The max amount of gas you accept to use. Put this around 800000 to ensure succesful trades
 - **Gwei**: The greater this value the bigger the chances of buying the first. Usually pancakeswap puts this at 5, however, we recommend a larger value to be faster (>15)
-- **Log**: The log box will help the user and notify whenever any change or any error happens.
-
-![Screenshot](https://github.com/dragunovv/Pancakeswap_Sniper/blob/31f8c5b8c82795e5e37fea677b4856a3e9c65da4/bot_image.png)
 
 ## Bot Setup
-- First you need a Ethereum (ERC) / Binance Smart Chain (BSC) wallet, such as [Metamask](https://metamask.io/) which is easily configurable.
-- Once you create your wallet, you need to save the wallet address (started with 0x...) and the private key, which will be used to perform the transactions using your wallet. For detailed instructions on how to export the private key refer to this [article](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
-- You need BNB to trade. It can be purchased on [Binance](https://www.binance.com/) or any other exchange. The only thing you need to do is transfer those BNBs to your wallet.
-- Download the executable (**barrett.exe** for windows and **barrett.bin** for linux) and run it.
+- First you need a Ethereum (ERC) / Binance Smart Chain (BSC) wallet, such as [Metamask](https://metamask.io/) or Trustwallet / Ledger which is easily configurable.
+- Once you create your wallet, select one of three wallet connect option. 1) Metamask via Browser 2) Trustwallet or Ledger via WalletConnect 3) Private Key
+For detailed instructions on how to export the private key refer to this [article](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key).
+- You need BNB/ETH/MATIC/AVAX to trade. It can be purchased on [Binance](https://www.binance.com/) or any other exchange. The only thing you need to do is transfer those BNBs to your wallet.
+- Download the executable (**TokenSniper.exe** for windows and run it.
 - Fill the edit-text boxes with your wallet information and the token you want to purchase. Configure the sniper as you wish.
-- Press the Snipe button to start sniping.
+- Press the start button to start sniping.
 
 ## Pricing 
-In order to purchase the bot you need to send **0.5 BNB** to this address: **0x95BFD6C1083C57179E20De371635dF5a7505278B** using the Binance Smart Chain (BSC), i.e. you can use your metamask or Trust wallet to send them.
-
-**IMPORTANT: The address you intend to use for sniping, must be the same as the wallet you used to make the transfer.**
-
-We keep track of all the transactions to our wallet and ensure that only those addresses that have purchased the bot are able to use it.
-
-We charge a 5% comision fee on the used BNB for purchasing tokens and other 5% on the profits (and not on the losses).
+Free till i perfect my bot. Until then 100 - 150$ I think.
 
 ## Troubleshooting
 The log of the bot can show multiple errors if the operations are not performed correctly. Among the most common ones:
 **web3.exceptions.ContractLogicError: execution reverted**. The token contract is wrong or the pair contract may have not been created yet.  
 
 ## Contact
-- **Mail** : fedir.dyachenko@protonmail.com
-
-## Demo
-https://user-images.githubusercontent.com/85341939/122640689-2f14d900-d101-11eb-800d-b64b5327e188.mp4
+- **Mail** : kirk33@protonmail.com
 
 ## Disclaimer
 

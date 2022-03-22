@@ -1,1 +1,1 @@
-barrett.exe filter=lfs diff=lfs merge=lfs -text
+TokenSniper.exe filter=lfs diff=lfs merge=lfs -text
